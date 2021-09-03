@@ -1,3 +1,4 @@
+// Função com parâmentro que recebe ...resto
 function calculo (operador, acumulador, ...numeros) {
     for (let numero of numeros) {
         if (operador === '+') acumulador += numero;
